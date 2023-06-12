@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- http://code.jquery.com/ JQuey Library 코드 copy(CDN 호스트) -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <!-- <script src="../js/jquery-3.7.0.js.txt"></script> 상대경로 --> 
+    <script>
+        // 문서가 준비(로드)되었을 때 호출될 익명함수를 선언
+        $(document).ready(function(){ // ready라는 메서드는 body태그 안에 onload=""와 같은 형식임.
+            // h1태그에 적용될 CSS 속성과 값 설정
+            $('h1').css('color', 'yellow');
+            $('h1').css('background', 'purple');
+        });
+    </script>
+</head>
+<body>
+    <h1>Atrificial Intelligence</h1>
+    <h1>Polytechnology University</h1>
+    <h1>Fresh Man</h1>
+</body>
+</html>
